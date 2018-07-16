@@ -1,0 +1,42 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "combining node, express, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --colors --progress"
+  },
+  "author": "Rich Rouse",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "apollo-server-express": "^1.4.0",
+    "bcrypt": "^3.0.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "graphql-tools": "^3.0.5",
+    "jsonwebtoken": "^8.3.0",
+    "lodash.merge": "^4.6.1",
+    "mongoose": "^5.2.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "graphql-tag": "^2.9.2",
+    "mocha": "^5.2.0",
+    "mocha-webpack": "^1.1.0",
+    "nodemon": "^1.18.2",
+    "raw-loader": "^0.5.1",
+    "source-map-support": "^0.5.6",
+    "start-server-webpack-plugin": "^2.2.5",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
